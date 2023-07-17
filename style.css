@@ -191,3 +191,38 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media(min-width: 1440px){
+    #main {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    #main .main-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-top: 18rem;
+    }
+    
+    #main img {
+        width: 65rem;
+        height: 65rem;
+    }
+    
+    #main h1 {
+        font-size: 6rem;
+    }
+    
+    #main p {
+        font-size: 3.2rem;
+        font-weight: 600;
+        margin-top: .8rem;
+        margin-bottom: 14rem;
+    }
+    
+}
