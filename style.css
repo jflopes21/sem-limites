@@ -259,7 +259,7 @@ footer {
   }
 
   #contact {
-    height: 90vh;
+    height: 80vh;
     padding: 0rem 0rem 0 2rem;
     width: 100%;
     display: flex;
@@ -280,7 +280,11 @@ footer {
 
   #contact .stars {
     width: 50vw;
-    height: 100vh;
     display: flex;
+  }
+
+  #contact .start img {
+    width: 64.4rem;
+    height: 61.2rem;
   }
 }
